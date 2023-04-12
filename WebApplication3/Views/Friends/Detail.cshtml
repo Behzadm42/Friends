@@ -1,0 +1,14 @@
+﻿@model FriendViewModel
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<div class="card" style="width: 18rem; margin-left: auto; margin-right: auto;">
+    <img src=@Model.Image class="card-img-top" alt=@Model.Name+"Image">
+    <div class="card-body">
+        <p class="card-text"><label>id :</label> @Model.Id</p>
+        <p class="card-text"><label>name :</label> @Model.Name</p>
+        <p class="card-text"><label>number :</label> @Model.Number</p>
+    </div>
+</div>
+
